@@ -14,8 +14,7 @@ export const profile = {
   location: 'Cape Town, South Africa',
   statement:
     'From the culinary arts to full-stack tech architectures. Building clean systems with discipline and flavor.',
-  // NOTE: your CV lists azharmanie27@gmail.com. This is the address the old
-  // contact page used. Change it here if the CV one is the right one.
+  
   email: 'chefmanie27@gmail.com',
   github: 'https://github.com/chefmanie27-pixel',
   linkedin: 'https://www.linkedin.com/in/azhar-manie-b48244403/?skipRedirect=true',
@@ -49,16 +48,15 @@ export const projects = [
     live: 'https://chefmanie27-pixel.github.io/HTML-CSS-Portfolio/',
   },
   {
-    id: 'placeholder-02',
-    placeholder: true,
-    title: 'Project title',
-    year: 'Year',
-    role: 'Your role',
-    tech: ['Technology'],
-    description: 'PLACEHOLDER. Replace this entry in src/data/content.js.',
+    id: 'Event Planning Service',
+    title: 'Event Planning Service',
+    year: '2026',
+    role: 'Design and Development',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A simple event planning service website that allows users to view and book event planning services. It features a responsive design and interactive elements.',
     image: null,
-    github: '',
-    live: '',
+    github: 'https://github.com/chefmanie27-pixel/Updated-Personal-Portfolio.git',
+    live: 'https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fnewmi-git.github.io%2FEvent-Planning-Service%2F&urlhash=GyD2&mt=mTjrYs52tzNZqH1ORB2oV5g7Qbp04iLKbPsHKQakTi2OACiTeDmJ90oFQKUXUsSFZxVFOqK7wbf3pl0WrUnp6BhAr5_ggybAeSaQmppTpD2c-4H5lUcAQsO0t9c&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BG5TBY4UqSJCXB%2BsdkSrwhQ%3D%3D',
   },
   {
     id: 'placeholder-03',
@@ -79,8 +77,6 @@ export const about = {
   lead: 'I am an aspiring developer transitioning from a fast-paced, highly precise culinary background into the world of software development. My journey is driven by a deep love for creating things from scratch, whether it\u2019s crafting a perfect menu profile or writing clean, efficient, and semantic web code.',
   body: [
     'Through intensive training and collaborative building environments, I have traded kitchen knives for code editors, discovering that the discipline, urgency, and creative problem-solving required in a professional kitchen translate perfectly into building modern web applications.',
-    // From the CV (job shadowing, Dec 2019 to Feb 2020). Delete if you prefer.
-    'Some of that kitchen time was spent on set, assisting on food and beverage photo shoots for magazines.',
   ],
   principles: [
     {
