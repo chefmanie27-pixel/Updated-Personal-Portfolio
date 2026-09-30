@@ -141,7 +141,7 @@ useHeroMotion(hero)
 .hero__line {
   display: block;
   overflow: hidden;
-  padding-block: 0.06em 0.1em; /* room for Bodoni's hairline ascenders and descenders */
+  padding-block: 0.06em 0.1em; 
   margin-block: -0.06em -0.1em;
 }
 .hero__line--indent {

@@ -1,13 +1,10 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-/* Title card, a hairline of light, then the doors part on the hero.
-   Plays once per browser session, and never for reduced-motion users.
-   Total runtime is about 2.5s. */
 const emit = defineEmits(['open'])
 
 const SEEN_KEY = 'am-intro-seen'
-const phase = ref('title') // title, line, open, done
+const phase = ref('title') 
 const timers = []
 const later = (fn, ms) => timers.push(setTimeout(fn, ms))
 const root = document.documentElement
