@@ -28,6 +28,20 @@ export const nav = [
 
 export const projects = [
   {
+    id: "python-mini-toolkit",
+    placeholder: false,
+    title: "Python Mini Toolkit: My First Coding Project",
+    year: "2026",
+    role: "Developer",
+    tech: ["Python"],
+    description:
+      "A beginner-friendly, menu-driven terminal application built during my training at Life Choices. A central menu routes to three mini-tools: a Grade Calculator that validates a 0 to 100 score and returns a letter grade, a Budget Tracker that records itemised expenses and warns when spending goes over budget, and a Number Guessing Game with five attempts and high/low hints. The project demonstrates core Python concepts including loops, conditionals, lists, functions, custom modules, and try/except error handling.",
+    image: null,
+    github: "https://github.com/chefmanie27-pixel/Python-Portfolio.git",
+    live: null,
+  },
+
+  {
     id: "html-css-portfolio",
     title: "HTML & CSS Portfolio",
     year: "2026",
@@ -52,6 +66,22 @@ export const projects = [
       "https://github.com/chefmanie27-pixel/Updated-Personal-Portfolio.git",
     live: "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fnewmi-git.github.io%2FEvent-Planning-Service%2F&urlhash=GyD2&mt=mTjrYs52tzNZqH1ORB2oV5g7Qbp04iLKbPsHKQakTi2OACiTeDmJ90oFQKUXUsSFZxVFOqK7wbf3pl0WrUnp6BhAr5_ggybAeSaQmppTpD2c-4H5lUcAQsO0t9c&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BG5TBY4UqSJCXB%2BsdkSrwhQ%3D%3D",
   },
+
+  {
+    id: "moderntech-hr-portal",
+    placeholder: false,
+    title: "ModernTech HR Portal",
+    year: "2026",
+    role: "Full-Stack Developer",
+    tech: ["HTML", "CSS", "JavaScript", "MySQL"],
+    description:
+      "An HR management portal built with HTML, CSS, and JavaScript, backed by a MySQL database. It covers employee records, payroll, time-off requests, attendance tracking, and performance reviews, with a dashboard showing active employees, monthly payroll, pending requests, average attendance, and department headcount. Note: the backend is currently down, so the portal cannot load or save live data. All data displayed currently is static and for demonstration purposes only. To login, use the following credentials: Username: admin@moderntech.com | Password: password123.",
+    image: null,
+    github:
+      "https://github.com/chefmanie27-pixel/project-modern-tech-solutions-.git",
+    live: "https://chefmanie27-pixel.github.io/project-modern-tech-frontend",
+  },
+
   {
     id: "market-pulse",
     placeholder: false,
@@ -68,17 +98,17 @@ export const projects = [
   },
 
   {
-    id: "moderntech-hr-portal",
+    id: "occasion-catering",
     placeholder: false,
-    title: "ModernTech HR Portal",
+    title: "Occasion: Halaal Catering Platform",
     year: "2026",
     role: "Full-Stack Developer",
-    tech: ["HTML", "CSS", "JavaScript", "MySQL"],
+    tech: ["Vue", "Node.js", "Express", "MySQL", "Axios", "CSS", "PayFast"],
     description:
-      "An HR management portal built with HTML, CSS, and JavaScript, backed by a MySQL database. It covers employee records, payroll, time-off requests, attendance tracking, and performance reviews, with a dashboard showing active employees, monthly payroll, pending requests, average attendance, and department headcount. Note: the backend is currently down, so the portal cannot load or save live data.",
+      "A full-stack e-commerce platform for high-end halaal catering, built with Vue on the frontend and a Node.js and Express backend with a MySQL database. Customers can browse catering packages, large events, small events, and tours, search the catalogue, and check out through an integrated PayFast sandbox payment flow. Note: the backend is currently down, so login, sign up, and checkout will not work on the live demo.",
     image: null,
-    github: "",
-    live: "",
+    github: "https://github.com/chefmanie27-pixel/Occasion-catering.git",
+    live: "https://occasion-catering.netlify.app",
   },
 ];
 
