@@ -22,6 +22,7 @@ export const nav = [
   { id: "work", label: "Work" },
   { id: "about", label: "About" },
   { id: "journey", label: "Journey" },
+  { id: "certifications", label: "Certificates" },
   { id: "skills", label: "Skills" },
   { id: "contact", label: "Contact" },
 ];
@@ -125,7 +126,7 @@ export const about = {
     },
     {
       title: "Technical focus",
-      text: "Right now, I am focusing deeply on frontend logic, mastering responsive structures, and writing elegant JavaScript. I enjoy transforming intricate visual designs into pixel-perfect, accessible interactive interfaces.",
+      text: "Right now, I am focusing on both sides of the stack. On the frontend, I'm mastering responsive structures, Vue, and elegant JavaScript, transforming intricate visual designs into pixel-perfect, accessible interactive interfaces. On the backend, I build with Node.js and Express and design MySQL databases to power them.",
     },
     {
       title: "Future aspirations",
@@ -220,6 +221,39 @@ export const skills = {
           where: "Capsicum Culinary Studio and work experience",
         },
       ],
+    },
+  ],
+};
+
+export const certifications = {
+  intro: "The qualifications behind my work, from school to the professional kitchen.",
+  items: [
+    {
+      
+      id: "matric",
+      title: "National Senior Certificate (Matric)",
+      issuer: "Department of Basic Education",
+      year: "2019",
+      detail: "Completed High School in South Africa.",
+      file: null,
+    },
+    {
+      id: "advanced-chef",
+      title: "Advanced Professional Chef Programme",
+      issuer: "Capsicum Culinary Studio",
+      year: "2023",
+      detail:
+        "NQF Level 5, 558 credits, aligned to QCTO (SAQA ID 101697). Capsicum is accredited by the QCTO and CATHSSETA as a skills development provider.",
+      file: null,
+    },
+    {
+      id: "city-guilds",
+      title: "Level 2 Diploma in Food Preparation and Cooking (Culinary Arts)",
+      issuer: "City & Guilds, taken at Capsicum Culinary Studio",
+      year: "2021",
+      detail:
+        "Eleven practical modules passed, covering stocks, soups and sauces, fish, meat and poultry, vegetables, bakery, desserts, healthier foods and catering operations. Also earned a Merit in culinary arts principles and a Distinction in food safety in catering.",
+      file: null,
     },
   ],
 };

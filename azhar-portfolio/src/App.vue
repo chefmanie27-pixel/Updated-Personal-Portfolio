@@ -6,6 +6,7 @@ import Hero from './components/Hero.vue'
 import Projects from './components/Projects.vue'
 import About from './components/About.vue'
 import Journey from './components/Journey.vue'
+import Certifications from './components/Certifications.vue'
 import Skills from './components/Skills.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
@@ -25,6 +26,7 @@ const ready = ref(false)
       <Projects />
       <About />
       <Journey />
+      <Certifications />
       <Skills />
       <Contact />
     </main>
